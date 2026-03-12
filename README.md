@@ -24,7 +24,7 @@
    - View all channels
 
    Be sure your bot has access to every server you want to download.
-   When you're done, go to the bot tab and copy your token.
+   When you're done, grab your bot token and move on.
    
 
  ## Step 2: Installing dependencies
