@@ -12,7 +12,7 @@
  ![Show messages of a channel](/doc/img/channel.png)
 
 # How to use
- The Discord Server Downloader is very easy to set up and use. All you need is a Discord bot token stored in a .env file. The bot will automatically download every Guild and Channel into it's own subfolders.
+ The Discord Server Downloader is very easy to set up and use. All you need is a [discord bot configured with the correct intents](https://discord.com/developers/applications). The bot will automatically download every Guild and Channel into it's own subfolders.
  
  ## Step 1: Setting up your bot
   Navigate to the [Discord Developer Portal](https://discord.com/developers/applications) and create a new bot.
