@@ -1,17 +1,12 @@
 # Discord-Server-Downloader
- A utility that archives an entire discord server using a bot.
- You can use it to archive your old servers in a nice format if you're leaving discord
- or if you just want a backup of your memories.
+ Archive your entire server in minutes. Downloaded channels are rendered neatly into HTML documents. No external software required
 
  ![A channel overview](/doc/img/overview.png)
  
 # Design
- Messages are plainly downloaded and rendered into a browser document for each channel, including images, videos and audio messages.
- There's no complicated database, just files on your computer and a user friendly way to view them.
+ Images, videos, audio messages and standard messages are downladed and embedded. There's no telemetry and the bot never sends a message to  your server, so you can use it as often as you want without it spamming your server.
 
  ![Show messages of a channel](/doc/img/channel.png)
-
- The bot is also created to be very non-intrusive for your server. It does not collect telemetry and it does not send any messages.
  
 # How to use
  The tool is very easy to set up and use. All you need is a [discord bot configured with the correct intents](https://discord.com/developers/applications). The bot will automatically detect every server it has access to and start downloading immediately.
@@ -34,5 +29,4 @@
  ## Step 3: running
  Simply run the program using ```python main.py -t [YOUR TOKEN HERE]```
 
-The server will now be downloaded to your downloads folder. Navigate into
-the newly created directory and access it under index.html.
+The server will now be downloaded to your downloads folder. Open the index.html file at the root of the new directory. Enjoy!
