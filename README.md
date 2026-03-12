@@ -1,5 +1,5 @@
 # Discord-Server-Downloader
- A simple utility that archives an entire discord server using a bot.
+ A utility that archives an entire discord server using a bot.
  You can use it to archive your old servers in a nice format if you're leaving discord
  or if you just want a backup of your memories.
 
