@@ -20,8 +20,10 @@
    - Read Message History
    - View all Servers
    - View all channels
-   Go to the bot tab and copy your token.
+
    Be sure your bot has access to every server you want to download.
+   When you're done, go to the bot tab and copy your token.
+   
 
  ## Step 2: Installing dependencies
  Run ```pip install -r pip.txt``` to automatically install all dependencies
