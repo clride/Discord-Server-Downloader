@@ -1,6 +1,6 @@
 import os
 import discord
-import html
+import src.html_files as html
 
 class DiscordDownloader:
     def __init__(self, token: str, download_path: str):
@@ -59,7 +59,10 @@ class DiscordDownloader:
                 print(f"  [WARN] No access to channel: {channel.name}, this may be intended")
             except Exception as e:
                 print(f"  [ERROR] while downloading channel {channel.name}: {e}")
- 
+            finally:
+                channels = [c.name for c in guild.text_channels]
+                html.generate_server_index(guild_path, channels)
+
     async def download_all(self):
         for guild in self.client.guilds:
             await self.download_server(guild)
