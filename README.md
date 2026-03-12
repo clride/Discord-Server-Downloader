@@ -7,12 +7,12 @@
  
 # Design
  Messages are plainly downloaded and rendered into a document for each channel to allow viewing of the channel timeline, including images, videos and audio messages.
- The program is designed to interact with your filesystem instead of with a database. You do not need any external software to view and preserve downloaded files.
+ The program is designed to interact with your filesystem instead of a database. You do not need any external software to view and preserve downloaded files.
 
  ![Show messages of a channel](/doc/img/channel.png)
 
 # How to use
- The Discord Server Downloader is very easy to set up and use. All you need is a [discord bot configured with the correct intents](https://discord.com/developers/applications). The bot will automatically download every Guild and Channel into it's own subfolders.
+ The tool is very easy to set up and use. All you need is a [discord bot configured with the correct intents](https://discord.com/developers/applications). The bot will automatically detect every server it has access to and start downloading immediately.
  
  ## Step 1: Setting up your bot
   Navigate to the [Discord Developer Portal](https://discord.com/developers/applications) and create a new bot.
