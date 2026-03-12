@@ -6,8 +6,8 @@
  ![A channel overview](/doc/img/overview.png)
  
 # Design
- Messages are plainly downloaded and rendered into a document for each channel to allow viewing of the channel timeline, including images, videos and audio messages.
- The program is designed to interact with your filesystem instead of a database. You do not need any external software to view and preserve downloaded files.
+ Messages are plainly downloaded and rendered into a browser document for each channel, including images, videos and audio messages.
+ There's no complicated database, just files on your computer and a user friendly way to view them.
 
  ![Show messages of a channel](/doc/img/channel.png)
 
