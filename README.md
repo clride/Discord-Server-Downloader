@@ -11,6 +11,8 @@
 
  ![Show messages of a channel](/doc/img/channel.png)
 
+ The bot is also created to be very non-intrusive for your server. It does not collect telemetry and it does not send any messages.
+ 
 # How to use
  The tool is very easy to set up and use. All you need is a [discord bot configured with the correct intents](https://discord.com/developers/applications). The bot will automatically detect every server it has access to and start downloading immediately.
  
